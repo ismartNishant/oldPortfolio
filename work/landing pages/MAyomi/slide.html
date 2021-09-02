@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Background Roation</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="bg.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link href= "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    </head>
+    <body>
+        <section>
+            <h2>NANCY-LOVE</h2>
+        </section>
+        <!-- -->
+        <script>
+            function changeBg(){
+                const images =[
+                 'url("images/w0.jpg")',
+                 'url("images/w1.jpg")',
+                 'url("images/w2.jpg")',
+                 'url("images/w3.jpg")',
+                 'url("images/w4.jpg")',
+                 'url("images/w5.jpg")',
+                 
+                ]
+
+                const section = document.querySelector('section')
+                const bg = images[Math.floor(Math.random() *
+                images.length)];
+                section.style.backgroundImage = bg;
+            }
+            setInterval(changeBg,1500)
+        </script>
+    </body>
+</html>

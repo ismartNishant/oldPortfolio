@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUPHORIA-FOODS</title>
+
+    <!-- fontawesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- fox icons cdn-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--my own css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scrollToTop-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- start preloader -->
+    <div class="preloader">
+        <div class="wraper">
+            <img src="images/13-pizza-outline.gif" alt="">
+        </div>
+
+    </div>
+    <!-- end preloader-->
+    <header>
+        <!-- header secrion starts <i class="fas fa-hamburger"></i> -->
+        <span class="logo">F<i class="fas fa-hamburger"></i><i class="fas fa-hamburger"></i>DZONE</span>
+
+        <div id="menu-bar" class="fas fa-hamburger"> </div>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#speciality" class="">SPECIALITY</a>
+            <a href="#dishes" class="">DISHES</a>
+            <a href="#gallery" class="">GALLERY</a>
+            <a href="#reviews" class="">REVIEWS</a>
+            <a href="#order" class="">ORDER</a>
+            <a href="#about" class="">ABOUT</a>
+        </nav>
+    </header>
+    <!-- header secrion ends -->
+    <!-- home section starts-->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Food made with <br>L<i class='bx bxs-heart'></i>VE  </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, quam voluptate<br> nobis rem ipsum id, molestiae illum
+                porro aperiam omnis dolor numquam<br>voluptates placeat doloribus
+                sequi hic impedit amet.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+       
+    </section>
+    <!-- home section ends-->
+    <!-- speciality section starts-->
+    <section id="speciality" class="speciality">
+        <h1 class="heading"><span>Our Speciality</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img class="image" src="images/special/sp1.jpg " alt="">
+                <div class="content">
+                    <h3>Upto 25% Discount</h3>
+                    <a href="#burger" class="btn">Check Out</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/special/sp2.jpg " alt="">
+                <div class="content">
+                    <h3>Upto 25% Discount</h3>
+                    <a href="#burger" class="btn">Check Out</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/special/sp3.jpg" alt="">
+                <div class="content">
+                    <h3>Upto 25% Discount</h3>
+                    <a href="#burger" class="btn">Check Out</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/special/sp4.jpg" alt="">
+                <div class="content">
+                    <h3>Upto 25% Discount</h3>
+                    <a href="#burger" class="btn">Check Out</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/special/sp5.jpg" alt="">
+                <div class="content">
+                    <h3>Upto 25% Discount</h3>
+                    <a href="#burger" class="btn">Check Out</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/special/sp6.jpg " alt="">
+                <div class="content">
+                    <h3>Upto 25% Discount</h3>
+                    <a href="#burger" class="btn">Check Out</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-tags"></i>
+                <h3>heavy discounts</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h3>money returns</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <h3>24 x 7 support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- speciality section ends-->
+    <!-- famous section starts-->
+    <section id="dishes" class="dishes">
+        <h1 class="heading"><span>Our Famous Foods</span></h1>
+
+        <ul class="controls">
+            <li class="buttons button-active" data-filter="all">all</li>
+            <li class="buttons" data-filter="burger">Hamburgers</li>
+            <li class="buttons" data-filter="pizza">Pizza</li>
+            <li class="buttons" data-filter="drinks">Drinks</li>
+            <li class="buttons" data-filter="icecream">Ice-cream</li>
+            <li class="buttons" data-filter="sweets">Sweets</li>
+            <li class="buttons" data-filter="cake">Cake</li>
+            <li class="buttons" data-filter="breakfast">Breakfast</li>
+        </ul>
+
+        <div class="box-container">
+            <!--drinks-->
+            <div class="box drinks">
+                <img src="images/dishes/d1.jpg">
+                <span class="price">120 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box drinks">
+                <img src="images/dishes/d2.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box drinks">
+                <img src="images/dishes/d3.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box drinks">
+                <img src="images/dishes/d4.jpg">
+                <span class="price"> 200 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box drinks">
+                <img src="images/dishes/d5.jpg">
+                <span class="price">80 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box drinks">
+                <img src="images/dishes/d6.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box drinks">
+                <img src="images/dishes/d7.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box drinks">
+                <img src="images/dishes/d8.jpg">
+                <span class="price"> 200 &#8377</span>
+                <h3>Juice</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <!--burger-->
+            <div class="box burger">
+                <img src="images/dishes/bug1.jpg">
+                <span class="price">80 &#8377</span>
+                <h3>Veg Burger</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box burger">
+                <img src="images/dishes/bug2.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Chieken Burger</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box burger">
+                <img src="images/dishes/bug3.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Egg Burger</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box burger">
+                <img src="images/dishes/bug4.jpg">
+                <span class="price"> 200 &#8377</span>
+                <h3>Monster Burger</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <!--pizza-->
+            <div class="box pizza">
+                <img src="images/dishes/p1.jpg">
+                <span class="price">200 &#8377</span>
+                <h3>Pizza</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box pizza">
+                <img src="images/dishes/p2.jpg">
+                <span class="price"> 300 &#8377</span>
+                <h3>Pizza</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box pizza">
+                <img src="images/dishes/p3.jpg">
+                <span class="price"> 250 &#8377</span>
+                <h3>Pizza</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box pizza">
+                <img src="images/dishes/p4.jpg">
+                <span class="price"> 150 &#8377</span>
+                <h3>Pizza</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <!-- ice cream-->
+            <div class="box icecream">
+                <img src="images/dishes/i1.jpg">
+                <span class="price">100 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box icecream">
+                <img src="images/dishes/i2.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box icecream">
+                <img src="images/dishes/i3.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box icecream">
+                <img src="images/dishes/i4.jpg">
+                <span class="price"> 150 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box icecream">
+                <img src="images/dishes/i5.jpg">
+                <span class="price">80 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box icecream">
+                <img src="images/dishes/i6.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box icecream">
+                <img src="images/dishes/i7.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box icecream">
+                <img src="images/dishes/i8.jpg">
+                <span class="price"> 150 &#8377</span>
+                <h3>Ice-cream</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <!-- sweets-->
+            <div class="box sweets">
+                <img src="images/dishes/s1.jpg">
+                <span class="price">100 &#8377</span>
+                <h3>Donuts</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box sweets">
+                <img src="images/dishes/s2.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Chocolate Balls</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box sweets">
+                <img src="images/dishes/s3.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Sweets</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box sweets">
+                <img src="images/dishes/s4.jpg">
+                <span class="price"> 200 &#8377</span>
+                <h3>Sweets</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box sweets">
+                <img src="images/dishes/s5.jpg">
+                <span class="price">80 &#8377</span>
+                <h3>Sweets</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box sweets">
+                <img src="images/dishes/s6.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Sweets</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box sweets">
+                <img src="images/dishes/s7.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Donuts</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box sweets">
+                <img src="images/dishes/s8.jpg">
+                <span class="price"> 200 &#8377</span>
+                <h3>Sweets</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <!--cake-->
+            <div class="box cake">
+                <img src="images/dishes/c1.jpg">
+                <span class="price">500 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box cake">
+                <img src="images/dishes/c2.jpg">
+                <span class="price"> 500 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box cake">
+                <img src="images/dishes/c3.jpg">
+                <span class="price"> 500 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box cake">
+                <img src="images/dishes/c4.jpg">
+                <span class="price"> 500 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box cake">
+                <img src="images/dishes/c5.jpg">
+                <span class="price">500 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box cake">
+                <img src="images/dishes/c6.jpg">
+                <span class="price"> 500 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box cake">
+                <img src="images/dishes/c7.jpg">
+                <span class="price"> 500 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box cake">
+                <img src="images/dishes/c8.jpg">
+                <span class="price"> 200 &#8377</span>
+                <h3>Cake</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <!-- breakfast-->
+            <div class="box breakfast">
+                <img src="images/dishes/b1.jpg">
+                <span class="price">150 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box breakfast">
+                <img src="images/dishes/b2.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box breakfast">
+                <img src="images/dishes/b3.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box breakfast">
+
+                <img src="images/dishes/b4.jpg">
+                <span class="price"> 80 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box breakfast">
+                <img src="images/dishes/b5.jpg">
+                <span class="price">120 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box breakfast">
+                <img src="images/dishes/b6.jpg">
+                <span class="price"> 120 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box breakfast">
+                <img src="images/dishes/b7.jpg">
+                <span class="price"> 100 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="box breakfast">
+
+                <img src="images/dishes/b8.jpg">
+                <span class="price"> 150 &#8377</span>
+                <h3>Breakfast</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#">Order Now</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- famous section ends-->
+    <section id="gallery" class="gallery">
+        <h1 class="heading"><span>Our gallery</span></h1>
+        <div class="main">
+            <div class="inner-gallery">
+                <div class="img">
+                    <img src="images/g1.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g2.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g3.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g4.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g5.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g6.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g7.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g8.jpg" />
+                </div>
+                <div class="img">
+                    <img src="images/g9.jpg" />
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="review">
+        <h1 class="heading"><span>People's Review</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/review/r1.png" alt="">
+                <h3>Nancy Jwel</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quodst,
+                    maxime.</p>
+            </div>
+            <div class="box">
+                <img src="images/review/r4.png" alt="">
+                <h3>Kim Tae-hyung (V)</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod
+                    ratione.</p>
+            </div>
+            <div class="box">
+                <img src="images/review/r2.png" alt="">
+                <h3>Lisa Manoban</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod
+                    ratioue.</p>
+            </div>
+            <div class="box">
+                <img src="images/review/r3.png" alt="">
+                <h3>Mike D'Angelo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facerEst.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="order" class="order">
+        <h1 class="heading"><span>Place An Order</span></h1>
+        <div class="row">
+
+            <div class="image">
+                <img src="images/order.jpg" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="food name">
+                </div>
+
+                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+                <a class="btn">Order Now</a>
+
+            </form>
+
+        </div>
+    </section>
+    
+    <section id="about">
+        <h1 class="heading"><span>About Us</span></h1>
+
+    </section>
+
+    <!-- newsletter section starts  -->
+
+    <section class="newsletter">
+
+        <h1>newsletter</h1>
+        <p>subscribe for latest updates</p>
+        <form action="">
+            <input type="email" placeholder="enter your email">
+            <input type="submit" value="subscribe">
+        </form>
+
+    </section>
+
+    <!-- newsletter section ends -->
+    <!-- footer section starts -->
+    <section id="footer" class="footer">
+
+        <div class="footer-container">
+
+            <div class="foo-box">
+                <h3 class="title"> <span>Why choose us ?</span> </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste unde reprehenderit vitae
+                    consequatur incidunt totam aperiam culpa. Repellat, fugiat?</p>
+            </div>
+
+            <div class="foo-box">
+                <h3 class="title"> <span>Locations <i class="fas fa-map-marker-alt"></i></span> </h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">Korea</a>
+                <a href="#">Japan</a>
+            </div>
+
+            <div class="foo-box">
+                <h3 class="title"> <span>Quick links <i class="fas fa-link"></i></span> </h3>
+                <a href="#home">home</a>
+                <a href="#speciality">speciality</a>
+                <a href="#famous">Dishes</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#order">Order</a>
+                <a href="#about">About</a>
+            </div>
+
+            <div class="foo-box">
+                <h3 class="title"> <span>Contact us <i class="fas fa-phone"></i></span> </h3>
+                <p> <i class="fas fa-map-marker-alt"></i> Nagad, india 431103 </p>
+                <p> <i class="fas fa-envelope"></i> nishantrajputa11.com </p>
+                <p> <i class="fas fa-globe"></i> www.yourwebsite.com </p>
+                <p> <i class='bx bx-phone-call bx-tada'></i> +91 7218566898 </p>
+            </div>
+        </div>
+        <div class="credits">
+            <h3 class="credit">. . . . . Made with <i class='bx bxs-heart bx-burst'></i> by Mr.Nishant Rajput . . . . .</h3>
+            <div class="brand">
+                <span class="logo">F<i class="fas fa-hamburger"></i><i class="fas fa-hamburger"></i>DZONE</span>
+                <div class="share">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p> 2021 FOODZONE.   &#169;  Copyright All rights reserved</p>
+            </div>
+            <p class="terms"> Terms of Use || Privacy Policy</p>
+        </div>
+    </section>
+    <!-- footer section ends-->
+</body>
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
+</html>

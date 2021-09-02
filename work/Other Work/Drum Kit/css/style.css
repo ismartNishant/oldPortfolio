@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.key {
+  border-radius: 20px;
+  margin: 10px 10px;
+  width:20em;
+  margin-left: 0px;
+  height: 18rem;
+  text-align: center;
+  padding-top: 80px;
+  text-shadow: 0 0 0.5rem black;
+  transition: all 0.07s ease; /*this transition is for that pop up animation*/
+  background: linear-gradient(45deg,#d007eb, #0d47e9);
+}
+
+kbd {
+  font-size: 5rem;
+  display: block;
+}
+
+.sound {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #ff0800;
+}
+
+.playing {
+  transform: scale(1.02);
+  box-shadow: 0 0 1rem #fff; /* but we want to remove this box shadow when the sound finished*/
+}

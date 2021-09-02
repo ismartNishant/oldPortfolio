@@ -1,0 +1,15 @@
+.bg img{
+    width: 646px;
+    top: 86px;
+    left: 388px;
+    position: relative;
+}
+body{
+
+}
+div img {
+    width:300px;
+}
+div i{
+    display: none;
+}
